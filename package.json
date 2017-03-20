@@ -1,22 +1,31 @@
 {
-  "name": "backlogg-web-react",
-  "version": "0.1.0",
-  "description": "Backlogg web client built using React",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/john-goldsmith/backlogg-web-react.git"
-  },
-  "keywords": [
-    "backlogg"
-  ],
   "author": "John Goldsmith <johngoldsm1@gmail.com>",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/john-goldsmith/backlogg-web-react/issues"
   },
-  "homepage": "https://github.com/john-goldsmith/backlogg-web-react#readme"
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "description": "Backlogg web client built using React",
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "homepage": "https://github.com/john-goldsmith/backlogg-web-react#readme",
+  "keywords": [
+    "backlogg"
+  ],
+  "license": "ISC",
+  "name": "backlogg-web-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john-goldsmith/backlogg-web-react.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "version": "0.1.0"
 }
